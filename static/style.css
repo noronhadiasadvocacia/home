@@ -1,0 +1,438 @@
+/* ======================= */
+/* BASE */
+/* ======================= */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: rgb(180, 174, 174);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.div1 {
+    background-color: #545454;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    
+}
+
+.logo-principal {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tamanho1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.tamanho2 {
+    font-size: 1.5em;
+}
+
+.borda1 {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.texto-caixa-principal {
+    margin-left: 30px;
+}
+
+.texto-principal h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto-principal h6 {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.texto-sobre-nos {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.texto-carousel {
+    color: rgb(180, 174, 174);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.text-footer {
+    font-size: 1em;
+}
+
+/* ======================= */
+/* BOTÕES E LINKS */
+/* ======================= */
+
+.btn-custom {
+    background-color: #d4a017;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    vertical-align: middle;
+}
+
+.btn-custom:hover {
+    background-color: #b38b14;
+}
+
+.link-hover {
+    color: rgb(212, 211, 211);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link-hover:hover {
+    color: rgb(3, 10, 17);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* ======================= */
+/* ÍCONES */
+/* ======================= */
+
+.contact-icon,
+.contact-icon2,
+.contact-icon3 {
+    vertical-align: middle;
+}
+
+.contact-icon,
+.contact-icon2 {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-icon2 {
+    margin: 12px;
+    margin-top: 14px;
+}
+
+.contact-icon3 {
+    width: 35px;
+    height: 25px;
+    margin: 12px;
+    margin-top: 17px;
+}
+
+/* ======================= */
+/* CAROUSEL */
+/* ======================= */
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #d4a017;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.carousel-item p {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(180, 174, 174);
+}
+
+.carousel-img {
+    flex: 0 0 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 50% 50%;
+}
+
+#logoCarousel .container {
+    max-width: 100%;
+    padding: 0;
+}
+
+/* ======================= */
+/* CARDS DE SERVIÇO */
+/* ======================= */
+
+.servico-card {
+    background-color: rgb(179, 178, 178);
+    border-radius: 10px;
+    padding: 17px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+    color: black !important;
+}
+
+.servico-card:hover {
+    transform: translateY(-5px);
+}
+
+.servico-card h4 {
+    font-size: 1.2rem;
+    color: rgb(180, 174, 174);
+    margin-bottom: 10px;
+}
+
+.servico-card p {
+    font-size: 0.9rem;
+    color: black;
+}
+
+/* ======================= */
+/* CAIXAS DE CONTEÚDO */
+/* ======================= */
+
+.caixa,
+.caixa2 {
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.caixa {
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.caixa h2 {
+    color: #003087;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.caixa p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ======================= */
+/* REDES SOCIAIS */
+/* ======================= */
+
+.instagram,
+.facebook {
+    color: #003087;
+    font-size: 1.5rem;
+}
+
+.instagram-feed img,
+.facebook-feed img {
+    width: 50px;
+    height: 50px;
+}
+
+/* ======================= */
+/* FOOTER */
+/* ======================= */
+
+#footer {
+    padding: 20px 0;
+    margin-top: 20px;
+    color: rgb(175, 175, 175);
+}
+
+.email-text,
+.text-number {
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+/* ======================= */
+/* IMAGENS */
+/* ======================= */
+
+.imagem-advogado {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* ======================= */
+/* ======================= */
+/* RESPONSIVO */
+/* ======================= */
+/* ======================= */
+
+/* Telas pequenas (até 767.98px) */
+@media (max-width: 767.98px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* .div1 {
+        padding: 10px;
+    } */
+
+    nav {
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav h3 {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 60px;
+        max-width: 100%;
+    }
+
+    .texto-principal {
+        margin-left: 0;
+    }
+
+    .texto-principal h3 {
+        font-size: 1.8rem;
+    }
+
+    .texto-principal h6 {
+        font-size: 1rem;
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .contact-icon {
+        margin-top: 5px;
+    }
+    .contact-icon2 {
+        margin: 12px;
+        margin-top: 14px;
+    }
+
+    .contact-icon3 {
+        width: 35px;
+        height: 25px;
+        margin: 12px;
+        margin-top: 17px;
+    }
+    .servico-card {
+        margin-bottom: 0px;
+        padding: 10px;
+    }
+
+    .carousel-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .caixa2 {
+        padding: 0px;
+    }
+
+    .tamanho1 {
+        font-size: 1.8rem;
+    }
+
+    .tamanho2 {
+        font-size: 1.2rem;
+    }
+
+
+    .logo-principal {
+        margin: 0 auto;
+        display: block;
+        max-width: 350px;
+    }
+
+    .btn-custom {
+        padding: 4px 8px;
+        font-size: 14px;
+        margin: 8px;
+        margin-top: 13px;
+    }
+
+    .btn-custom img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .texto-caixa-principal {
+        margin-left: 0;
+        font-size: 0.9em;
+    }
+
+    .imagem-advogado {
+        max-height: 300px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .texto-sobre-nos {
+        font-size: 0.8em;
+    }
+
+    .text-footer {
+        font-size: 0.7rem;
+    }
+}
+
+/* Telas médias (tablet entre 768.05px e 968px) */
+@media (min-width: 768.01px) and (max-width: 968px) {
+
+    .texto-caixa-principal {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 85px;
+    }
+
+    .texto-principal h1 {
+        font-size: 2rem;
+    }
+    .texto-principal h3 {
+        font-size: 1.8rem;
+    }
+
+    .btn-custom {
+        font-size: 16px;
+        padding: 5px 9px;
+    }
+
+    .carousel-item img {
+        width: 90px;
+        height: 90px;
+    }
+    .texto-sobre-nos {
+        font-size: 0.8em;
+    }
+}
